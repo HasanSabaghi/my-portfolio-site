@@ -345,39 +345,41 @@
           <figure>
             <img
               src="images/certificate1.webp"
-              alt="Certificate 1"
-              data-aos="zoom-in"
-              data-aos-delay="200"
-              data-aos-duration="1000"
+              alt="مدرک فنی SEO"
+              onclick="openModal(this)"
               loading="lazy"
             />
-            <figcaption> مدرک فنی SEO</figcaption>
+            <figcaption>مدرک فنی SEO</figcaption>
           </figure>
           <figure>
             <img
               src="images/certificate2.webp"
-              alt="Certificate 2"
-              data-aos="zoom-in"
-              data-aos-delay="200"
-              data-aos-duration="1000"
+              alt="مدرک فنی LINUX"
+              onclick="openModal(this)"
               loading="lazy"
             />
-            <figcaption> مدرک فنی LINUX</figcaption>
+            <figcaption>مدرک فنی LINUX</figcaption>
           </figure>
           <figure>
             <img
               src="images/certificate3.webp"
-              alt="Certificate 3"
-              data-aos="zoom-in"
-              data-aos-delay="200"
-              data-aos-duration="1000"
+              alt="مدرک فنی PYTHON"
+              onclick="openModal(this)"
               loading="lazy"
             />
-            <figcaption> مدرک فنی PYTHON</figcaption>
+            <figcaption>مدرک فنی PYTHON</figcaption>
           </figure>
         </div>
       </div>
     </section>
+    
+    <!-- Modal -->
+    <div id="imgModal" class="modal">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <img class="modal-content" id="modalImage">
+      <div id="caption"></div>
+    </div>
+    
 
     <div id="goals" class="anchor-offset"></div>
     <section class="interests-goals animate-fade fade-in">
